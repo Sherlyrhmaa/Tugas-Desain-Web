@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Membuat form</title>
+<style>
+    fieldset {
+        background-color: rgb(176, 255, 229);
+    }
+    legend {
+        background-color: rgb(28, 223, 197);
+    }
+</style>
+</head>
+<body>
+    <form>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                     
+        <fieldset>
+            <legend>BIODATA PRIBADI</legend>
+            <table>
+                <tr>
+                    <td><label for="nama">Nama</label></td>
+                    <td> : </td>
+                    <td><input type="text" id="nama" name="nama" value="Sherly Puput Rahmawati"></td>
+                </tr>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                             
+                <tr>
+                    <td><label for="alamat">Alamat</label></td>
+                    <td> : </td>
+                    <td><textarea name="alamat" rows="5" cols="30">Masukkan alamat lengkap anda disini </textarea></td>
+                </tr>
+                <tr>
+                    <td><label for="ttl">TTL</label></td>
+                    <td> : </td>
+                    <td><input type="text" id="ttl" name="ttl"><input type="date" id="ttl" name="ttl"></td>
+                </tr>
+                <tr>
+                    <td><label for="jenkel">Jenis Kelamin</label></td>
+                    <td> : </td>
+                    <td><input type="radio" id="jenkel" name="l">
+                        <label for="l">Laki-laki</label>
+                        <input type="radio" id="jenkel" name="p">
+                        <label for="p">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td>Agama</td>
+                    <td> : </td>
+                    <td><select id="agama" name="agama">
+                        <option value="islam">Islam</option>
+                        <option value="kristen">Kristen</option>
+                        <option value="hindu">Hindu</option>
+                        <option value="buddha">Buddha</option>
+                    </select>
+                </tr>
+                <tr>
+                    <td><label for="hobi">Hobi</label></td>
+                    <td> : </td>
+                    <td><input type="checkbox"><label for="html">Olahraga</label>
+                        <input type="checkbox"><label for="hobi">Belajar</label>
+                        <input type="checkbox"><label for="hobi">Komputer</label>
+                        <input type="checkbox"><label for="hobi">Musik</label>
+                        <input type="checkbox"><label for="hobi">Berenang</label>
+                        <input type="checkbox"><label for="hobi">Memasak</label>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="motto">Motto</label></td>
+                    <td> : </td>
+                    <td><textarea name="motto" rows="5" cols="30">isikan motto anda di sini</textarea></td>
+                </tr>
+                <tr>
+                    <td><input type="submit" value="Reset"><input type="submit" value="Simpan"></td>
+                </tr>
+            </table>
+        </fieldset>
+    </form>
+</body>
+</html>
