@@ -1,0 +1,20 @@
+header .danger {
+    font-size: 20px;
+    font-weight: bold;
+    border: 5px solid rgb(90, 48, 8);
+    background-color: rgb(161, 201, 247);
+  }
+  
+  body {
+    background-color: rgb(213, 248, 248);
+    font-family: "lucida sans";
+    color: rgb(105, 83, 207);
+  }
+  body h1 {
+    color: rgb(105, 83, 207);
+    text-align: center;
+  }
+  body p {
+    color: rgb(105, 83, 207);
+    text-align: center;
+  }

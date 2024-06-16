@@ -1,0 +1,31 @@
+$txtalign: center;
+$bgcolor: rgb(161, 201, 247);
+$font: 'lucida sans';
+
+header {
+    @mixin important-text{
+        font-size: 20px;
+        font-weight: bold;
+        border: 5px solid rgb(90, 48, 8); 
+    } 
+
+    .danger {
+        @include important-text;
+    }
+}
+
+body {
+    background-color: $bgcolor;
+    font-family: $font;
+    $txtcolor: rgb(105, 83, 207) !global;
+    color: $txtcolor;
+
+    h1 {
+        color: $textcolor;
+        text-align: $txtalign;
+    }
+    p {
+        color: $textcolor;
+        text-align: $txtalign;
+    }
+}
